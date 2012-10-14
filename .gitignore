@@ -10,6 +10,7 @@ lib-cov
 *.gz
 *.swp
 *.swo
+key.json
 
 pids
 logs
