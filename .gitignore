@@ -1,3 +1,5 @@
+coverage.html
+.DS_Store
 lib-cov
 *.seed
 *.log
@@ -6,6 +8,8 @@ lib-cov
 *.out
 *.pid
 *.gz
+*.swp
+*.swo
 
 pids
 logs

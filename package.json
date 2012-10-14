@@ -1,0 +1,31 @@
+{
+  "name": "node-google-api",
+  "description": "Wrapper for Google APIs in Node",
+  "version": "0.0.1",
+  "author": "Charlie Liang Yuan<charlie.liang.yuan@gmail.com>",
+  "contributors": [ 
+    { "name": "Charlie Liang Yuan", "email": "charlie.liang.yuan@gmail.com" }
+  ],
+  "dependencies": {
+    "commander": "0.6.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "connect-redis": "*"
+  },
+  "keywords": [
+    "google",
+    "node",
+    "nodejs",
+    "api",
+    "location"
+  ],
+  "repository": "git://github.com/cly/node-google-api",
+  "main": "index",
+  "scripts": {
+    "prepublish" : "npm prune",
+    "test": "make test"
+  },
+  "engines": { "node": "0.8.x" }
+}
